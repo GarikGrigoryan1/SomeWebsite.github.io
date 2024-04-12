@@ -1,0 +1,202 @@
+.hidden-header-part {
+    width: 100%;
+    height: 51px;
+    display: none;
+    .pseudo {
+        height: 51px;
+    }
+    .links {
+        background-color: rgb(77, 99, 111);
+        color: white;
+        padding: 12px 24px;
+        font-size: 18px;
+        position: relative;
+        z-index: 2;
+        &:hover {
+            background-color: #cccccc;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    .margin {
+        width: 100%;
+    }
+}
+.bar {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    color: white;
+    height: 51px;
+    width: 63.44px;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    i {
+        font-size: 18px;
+    }
+}
+
+.bar:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #fff;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+input[type=checkbox]:checked ~ .hidden-header-part {
+    display: block !important;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+    height: 51px;
+    background-color: rgb(77, 99, 111);
+    >*:first-child {
+        font-size: 18px;
+        background-color: #3a4b53;
+        i {
+            margin-right: 11px;
+        }
+        &:hover {
+            background-color: #ccc!important;
+            color: black;
+        }
+    }
+    :nth-child(2) {
+        width: 63.44px;
+    }
+    :nth-child(3) {
+        width: 60.86px;
+    }
+    :nth-child(4) {
+        width: 66px;
+    }
+    :nth-child(5) {
+        width: 88.87px;
+        height: 100%;
+        background-color: #ffffff00;
+        border: none;
+        font-size: 18px;
+        padding: 12px 24px;
+        i {
+            float: left;
+            color: white;
+        }
+        span {
+            text-align: center;
+            background-color: rgb(76, 175, 80);
+            font-size: 12px;
+            border-radius: 50%;
+            padding: 0 7.5px;
+            position: absolute;
+            left: 29.5em;
+            top: 1em;
+            width: 22.87px;
+            color: white;
+        }
+        &:hover {
+            background-color: #ccc;
+            cursor: pointer;
+            i {
+                color: black;
+            }
+        }
+        &:hover + .hidden-list {
+            display: block;
+        }
+    }
+    .hidden-list {
+        position: absolute;
+        top: 3.4em;
+        left: 20.7em;
+        width: 300px;
+        height: calc(43*3);
+        box-shadow: 0 4px 15px rgba(black, .35);
+        display: none;
+        button {
+            position: absolute;
+            top: -3.4em;
+            width: 88.87px;
+            height: 51.2px;
+            padding: 12px 24px;
+            border: none;
+            background-color: #ccc;
+            &:hover {
+                cursor: pointer;
+            }    
+            i {
+                font-size: 18px;
+                float: left;
+            }
+            span {
+                text-align: center;
+                background-color: rgb(76, 175, 80);
+                font-size: 12px;
+                border-radius: 50%;
+                padding: 0 7.5px;
+                width: 22.87px;
+                height: 20px;
+                color: white;
+                position: absolute;
+                top: 1em;
+                left: 3.5em;
+                margin-left: 0.1em;
+
+            }
+        }
+        a {
+            width: 100%;
+            background-color: #fff;
+            font-size: 18px;
+            padding: 8px 16px;
+            text-decoration: none;
+            display: block;
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+        &:hover {
+            display: block;
+        }
+    }
+    >:last-child {
+        width: 71px;
+        float: right;
+        img {
+            width: 23px;
+            border-radius: 20px;
+        }
+    }
+    >a {
+        text-decoration: none;
+        padding: 12px 24px;
+        float: left;
+        color: white;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        >i {
+            font-size: 50px;
+        }
+        &:hover {
+            background-color: #fff;
+        
+        i {
+            color: black;
+        }
+        }
+    }
+    .hidden-border {
+        width: 63.44px;
+        height: 100%;
+    }
+}
+

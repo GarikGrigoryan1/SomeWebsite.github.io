@@ -1,0 +1,28 @@
+.footer {
+    position: relative;
+    bottom: -135px;
+    background: rgb(67, 87, 97);
+    width: 100%;
+    height: 79px;
+    padding: 16px;
+    p {
+        margin: 10px 0;
+        position: absolute;
+        left: 16px;
+        font-size: 18px;
+        color: white;
+    }
+}
+.powered-by {
+    position: relative;
+    bottom: -135px;
+    height: 52.8px;
+    width: 100%;
+    background-color: rgb(48, 62, 69);
+    color: white;
+    p {
+        position: absolute;
+        left: 16px;
+        margin: 15px 0;
+    }
+}

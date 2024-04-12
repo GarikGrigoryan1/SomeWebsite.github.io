@@ -1,0 +1,23 @@
+@import './../variable/variable.scss';
+
+@mixin shadow-rad() {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    border-radius: 4px;
+    background-color: #fff;
+}
+@mixin button($bgc) {
+    background-color: $bgc;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+@mixin button-hover() {
+    cursor: pointer;
+    background-color: #ccc;
+    color: black;
+}
+@mixin for-flex() {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+}

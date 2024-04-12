@@ -1,0 +1,142 @@
+header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  height: 51px;
+  background-color: rgb(77, 99, 111);
+}
+header > *:first-child {
+  font-size: 18px;
+  background-color: #3a4b53;
+}
+header > *:first-child i {
+  margin-right: 11px;
+}
+header > *:first-child:hover {
+  background-color: #ccc !important;
+  color: black;
+}
+header :nth-child(2) {
+  width: 63.44px;
+}
+header :nth-child(3) {
+  width: 60.86px;
+}
+header :nth-child(4) {
+  width: 66px;
+}
+header :nth-child(5) {
+  width: 88.87px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 18px;
+  padding: 12px 24px;
+}
+header :nth-child(5) i {
+  float: left;
+  color: white;
+}
+header :nth-child(5) span {
+  text-align: center;
+  background-color: rgb(76, 175, 80);
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 0 7.5px;
+  position: absolute;
+  left: 29.5em;
+  top: 1em;
+  width: 22.87px;
+  color: white;
+}
+header :nth-child(5):hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+header :nth-child(5):hover i {
+  color: black;
+}
+header :nth-child(5):hover + .hidden-list {
+  display: block;
+}
+header .hidden-list {
+  position: absolute;
+  top: 3.4em;
+  left: 20.7em;
+  width: 300px;
+  height: 129;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+  display: none;
+}
+header .hidden-list button {
+  position: absolute;
+  top: -3.4em;
+  width: 88.87px;
+  height: 51.2px;
+  padding: 12px 24px;
+  border: none;
+  background-color: #ccc;
+}
+header .hidden-list button:hover {
+  cursor: pointer;
+}
+header .hidden-list button i {
+  font-size: 18px;
+  float: left;
+}
+header .hidden-list button span {
+  text-align: center;
+  background-color: rgb(76, 175, 80);
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 0 7.5px;
+  width: 22.87px;
+  height: 20px;
+  color: white;
+  position: absolute;
+  top: 1em;
+  left: 3.5em;
+  margin-left: 0.1em;
+}
+header .hidden-list a {
+  width: 100%;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+header .hidden-list a:hover {
+  background-color: #ccc;
+}
+header .hidden-list:hover {
+  display: block;
+}
+header > :last-child {
+  width: 71px;
+  float: right;
+}
+header > :last-child img {
+  width: 23px;
+  border-radius: 20px;
+}
+header > a {
+  text-decoration: none;
+  padding: 12px 24px;
+  float: left;
+  color: white;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+header > a > i {
+  font-size: 50px;
+}
+header > a:hover {
+  background-color: #fff;
+}
+header > a:hover i {
+  color: black;
+}/*# sourceMappingURL=header.css.map */

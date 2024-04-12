@@ -1,0 +1,16 @@
+footer {
+  position: absolute;
+  z-index: 5;
+  bottom: -250px;
+  background: rgb(67, 87, 97);
+  width: 100%;
+  height: 79px;
+  padding: 16px;
+}
+footer p {
+  margin: 10px 0;
+  position: absolute;
+  left: 16px;
+  font-size: 18px;
+  color: white;
+}/*# sourceMappingURL=footer.css.map */
